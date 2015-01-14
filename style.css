@@ -1,0 +1,50 @@
+                                /* Remplacer "none" par "default" dans .show_info_gene {} pour */
+                                /* afficher la boîte et la ComboBox "Informations générales". */
+
+.show_info_gen {
+    display: none;              /* none = cache la frame || default = montre la frame */
+}
+
+#header {
+    background-color: #b77b02;
+    /* Couleurs
+        brune : #b77b02
+        verte : #294A30 */
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#nav {
+    height: 320px;
+    margin: 20px;         
+}
+
+.section {
+    text-align: center;
+    height: 300px;
+    max-height: 300px;
+    margin-top: 60px;
+}
+
+.accords {
+    float: left;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    border: 2px black dashed;
+    border-radius: 5px;
+    margin: 35px;
+    margin-left: 29%;
+}
+
+.info_gen {
+    float: right;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    border: 2px black dashed;
+    border-radius: 5px;
+    margin: 35px;
+    margin-right: 29%;
+}
