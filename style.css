@@ -2,7 +2,7 @@
                                 /* afficher la boîte et la ComboBox "Informations générales". */
 
 .show_info_gen {
-    display: default;              /* none = cache la frame || default = montre la frame */
+    display: none;              /* none = cache la frame || default = montre la frame */
 }
 
 body {
