@@ -5,6 +5,12 @@
     display: none;              /* none = cache la frame || default = montre la frame */
 }
 
+/*<?php
+$age = 24;
+
+$majeur = ($age >= 18) ? true : false;
+?>*/
+
 body {
     background-image: url(Background.png);
     background-size: cover;
