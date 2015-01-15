@@ -2,7 +2,13 @@
                                 /* afficher la boîte et la ComboBox "Informations générales". */
 
 .show_info_gen {
-    display: none;              /* none = cache la frame || default = montre la frame */
+    display: default;              /* none = cache la frame || default = montre la frame */
+}
+
+body {
+    background-image: url(Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #header {
@@ -11,8 +17,10 @@
         brune : #b77b02
         verte : #294A30 */
     color: white;
+    width: 100%;
+    height: 20%;
     text-align: center;
-    padding: 5px;
+    padding: 1px;
 }
 
 #nav {
@@ -34,8 +42,9 @@
     height: 200px;
     border: 2px black dashed;
     border-radius: 5px;
-    margin: 35px;
+    margin: 38px;
     margin-left: 29%;
+    margin-bottom: 10%;
 }
 
 .info_gen {
@@ -45,6 +54,7 @@
     height: 200px;
     border: 2px black dashed;
     border-radius: 5px;
-    margin: 35px;
+    margin: 38px;
     margin-right: 29%;
+    margin-bottom: 10%;
 }
